@@ -32,7 +32,6 @@ namespace ConfigService.Controllers
         [HttpGet]
         public IActionResult GetAll()
         {
-            // Tüm konfigürasyon kayıtlarını döndürün
             return Ok(_configurationReader.GetAllConfigurations());
         }
     }
